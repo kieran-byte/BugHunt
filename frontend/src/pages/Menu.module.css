@@ -1,0 +1,54 @@
+.title{
+    text-align: left;
+    font-size: 39px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.toolbar{
+    width: 100%;
+    align-self: center;
+    
+}
+
+.bugSpacing{
+    offset-distance: 40px;
+    color: #3D4451;
+}
+
+.wrapper{
+    background-color: whitesmoke;
+
+}
+
+.grid{
+    background-color: #3D4451;
+    height: 115px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.button{
+    background-color: #37CDBE;
+    margin: 5px;
+    padding: 10px;
+    color: #3D4451;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    align-items: center;
+    width: 250px;
+    height: 80px;
+    --ion-background-color: #ff0000;
+    --ion-color: green;
+    border-radius: 10px;
+
+}
+
+.row{
+    display: grid;
+    place-items: center;
+}

@@ -1,0 +1,115 @@
+.wikiTitle{
+    color: white;
+    font-weight: bold; 
+    font-size: 39px;
+    padding-top: 6px;
+
+}
+
+.color{
+    background-color: whitesmoke;
+}
+
+.sectionTitle{
+    padding-top: 8px;
+    color:black;
+    font-weight: bold;
+    font-size: 20;
+    text-align: center;
+}
+
+.sectionSubHeader{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.grid{
+    background-color: #3D4451;
+    height: 115px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.toolbar{
+    width: 100%;
+    align-self: center;
+    
+}
+
+.button{
+    background-color: #37CDBE;
+    margin: 10px;
+    padding: 10px;
+    color: #3D4451;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    align-items: center;
+    width: 140px;
+    height: 65px;
+    border-radius: 10px;
+}
+
+.hideBar{
+    overflow-y: scroll;
+}
+
+.imageCenter{
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    display: flex;
+}
+
+.homeButton{
+    background-color: #37CDBE;
+    margin: 5px;
+    padding: 10px;
+    color: #3D4451;
+    font-size: 20px;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.row{
+    display: grid;
+    justify-content: center;
+    background-color: #3D4451;
+    
+    border-radius: 10px;
+    padding: 10px;
+    height: 100vh; /* Make the toolbar occupy the full height of the viewport */
+    overflow: auto; /* Add scrollbars if the content exceeds the toolbar height */
+}
+
+.centerText{
+    text-align: center;
+}
+
+.fixedColumn {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+
+}
+
+.wikiContent{
+    height: 100vh; /* Make the content section occupy the full height of the viewport */
+    overflow: auto; /* Add scrollbars if the content exceeds the viewport height */
+    overflow-y: auto;
+}
+
+  ul {
+    list-style-type: disc;
+    margin-left: 1em;
+  }
+  
+  li {
+    margin-bottom: 0.5em;
+  }
